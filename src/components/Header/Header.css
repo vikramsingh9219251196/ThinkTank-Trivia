@@ -1,0 +1,28 @@
+.Header{
+    display: flex;
+    align-items: center;
+ flex-direction: column;
+}
+
+h1{
+    font-size: 8vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-size: cover;
+    cursor: pointer;
+    color:white;
+}
+.line{
+    width:100%;
+    margin: 10px;;
+}
+@media (max-width:400px){
+    h1{
+ font-size: 1.5rem;
+    }
+    
+}
+@media (max-width:335px){
+    h1{
+ font-size: 1.2rem;
+    }
+}
